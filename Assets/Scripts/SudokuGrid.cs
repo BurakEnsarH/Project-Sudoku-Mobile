@@ -22,7 +22,7 @@ public class SudokuGrid : MonoBehaviour
         }
 
         CreateGrid();
-        SetGridNumber("Easy");
+        SetGridNumber(GameSettings.Instance.GetGameMode());
 
     }
 
